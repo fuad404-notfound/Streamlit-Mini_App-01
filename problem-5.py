@@ -13,6 +13,8 @@
 import streamlit as st
 from api_calling import ans_generator
 
+title = st.title("**Question Answer Generator**" ,anchor= False)
+
 text = st.text_input("", placeholder="Write your question here")
 
 button = st.button("Ask Gemini", type='primary')
