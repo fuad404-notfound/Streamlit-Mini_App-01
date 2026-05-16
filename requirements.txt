@@ -135,3 +135,8 @@ websocket-client==1.9.0
 websockets==16.0
 widgetsnbextension==4.0.15
 yarg==0.1.10
+streamlit
+google-genai
+gTTS
+pillow
+python-dotenv
