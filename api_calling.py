@@ -14,6 +14,6 @@ def ans_generator(text):
 
     response = client.models.generate_content(
         model = "gemini-3-flash-preview",
-        contents=[text, prompt])
+        contents= f"{prompt}\n\nQuestion: {text}")
     
     return response.text
